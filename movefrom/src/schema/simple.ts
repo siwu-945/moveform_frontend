@@ -2,12 +2,12 @@ export default {
     "type": "object",
     "properties": {
         "fr-5pqi": {
-            "title": "数字输入框",
+            "title": "Number Input",
             "type": "number",
             "widget": "inputNumber"
         },
         "fr-duif": {
-            "title": "下拉多选",
+            "title": "Dropdown Multi-select",
             "type": "array",
             "widget": "multiSelect",
             "props": {
@@ -21,11 +21,11 @@ export default {
                         "value": "B"
                     }
                 ],
-                "placeholder": "请选择"
+                "placeholder": "Select"
             }
         },
         "fr-6i34": {
-            "title": "点击多选",
+            "title": "Multi-select",
             "type": "array",
             "props": {
                 "options": [
@@ -47,13 +47,13 @@ export default {
             "widget": "checkboxes"
         },
         "fr-8xjs": {
-            "title": "单行文本",
+            "title": "Single-line Text",
             "type": "string",
             "pattern": "^[A-Za-z0-9]+$",
             "widget": "input"
         },
         "fr-9c3f": {
-            "title": "下拉单选",
+            "title": "Dropdown Menu",
             "type": "string",
             "props": {
                 "options": [
@@ -70,12 +70,12 @@ export default {
                         "value": "3"
                     }
                 ],
-                "placeholder": "请选择"
+                "placeholder": "Select"
             },
             "widget": "select"
         },
         "fr-4ok6": {
-            "title": "数字输入框",
+            "title": "Number Input",
             "type": "number",
             "props": {
                 "prefix": "x",
@@ -91,39 +91,39 @@ export default {
             "widget": "html"
         },
         "fr-1z7o": {
-            "title": "滑动条",
+            "title": "Slider",
             "min": 1,
             "max": 10,
             "maxWidth": "340px",
             "widget": "slider"
         },
         "fr-d8rw": {
-            "title": "日期区间选择",
+            "title": "Date Range",
             "type": "range",
             "format": "date",
             "props": {
                 "placeholder": [
-                    "开始时间",
-                    "结束时间"
+                    "Begin",
+                    "End"
                 ]
             },
             "maxWidth": "340px",
             "widget": "dateRange"
         },
         "fr-dy3l": {
-            "title": "日期区间选择",
+            "title": "Date Range",
             "type": "range",
             "format": "date",
             "props": {
                 "placeholder": [
-                    "开始时间",
-                    "结束时间"
+                    "Begin",
+                    "End"
                 ]
             },
             "widget": "dateRange"
         },
         "fr-6f68": {
-            "title": "评分",
+            "title": "Rating",
             "props": {
                 "allowClear": true,
                 "count": 19
@@ -131,20 +131,20 @@ export default {
             "widget": "rate"
         },
         "fr-47yy": {
-            "title": "时间区间",
+            "title": "Time Range",
             "type": "range",
             "format": "time",
             "props": {
                 "placeholder": [
-                    "开始时间",
-                    "结束时间"
+                    "Begin",
+                    "End"
                 ]
             },
             "maxWidth": "340px",
             "widget": "timeRange"
         },
         "fr-gh3o": {
-            "title": "下拉多选",
+            "title": "Dropdown Multi-select",
             "type": "array",
             "widget": "multiSelect",
             "props": {
@@ -158,11 +158,11 @@ export default {
                         "value": "B"
                     }
                 ],
-                "placeholder": "请选择"
+                "placeholder": "Select"
             }
         },
         "fr-fbba": {
-            "title": "点击多选",
+            "title": "Multi-select",
             "type": "array",
             "props": {
                 "options": [
@@ -185,15 +185,15 @@ export default {
             "widget": "checkboxes"
         },
         "fr-hhzp": {
-            "title": "日期选择",
+            "title": "Date Selection",
             "type": "string",
             "props": {
-                "placeholder": "请选择日期"
+                "placeholder": "Select"
             },
             "widget": "datePicker"
         },
         "single_text1": {
-            "title": "单行文本",
+            "title": "Single-line Text",
             "type": "string",
             "format": "email",
             "widget": "input"

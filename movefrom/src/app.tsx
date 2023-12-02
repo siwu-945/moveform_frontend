@@ -1,28 +1,17 @@
-// app.tsx
 import React from 'react';
-import FormRender, {useForm} from "form-render";
-import schema from "./schema/simple";
+import MyForm from './form';
+import { AppContext } from './components/AppContext';
+import WalletConnect from './components/WalletConnect';
 
-const App = () => {
-    const form = useForm();
-    console.log('MyForm is rendering');
-
-
-    const onFinish = (formData: any) => {
-        console.log('formData:', formData);
-    };
-
+function App() {
     return (
         <div className="App">
-            <FormRender
-                form={form}
-                schema={schema}
-                onFinish={onFinish}
-                maxWidth={360}
-                footer={true}
-            />
+            <AppContext>
+                <WalletConnect />
+                <MyForm />
+            </AppContext>
         </div>
     );
-};
+}
 
 export default App;
